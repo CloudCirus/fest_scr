@@ -106,7 +106,7 @@ def save_festivals_data_in_json(file_name, festival_urls: list) -> None:
 
 def test(i: int, j: int) -> None:
     if i == j:
-        print(f'>>>>>> ZBS!')
+        print(f'>>>>>> OK!')
     else:
         print(f'>>>>>> {int(i - j)} festivals data not saved!')
 
